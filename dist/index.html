@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="منصة مدرستي للتسجيل والأداء والتتبع الدراسي" />
+  <title>مدرستي | فضاؤك المدرسي المتكامل</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232764ff'/%3E%3Cpath d='M15 26l17-9 17 9-17 9-17-9zm7 7v10c7 5 13 5 20 0V33l-10 5-10-5z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="school-theme.css" />
+  <link rel="stylesheet" href="premium.css" />
+  <link rel="stylesheet" href="levels.css" />
+  <link rel="stylesheet" href="guide.css" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="مدرستي - الرئيسية">
+      <span class="brand-mark">م</span>
+      <span><strong>مدرستي</strong><small>فضاؤك المدرسي المتكامل</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+    <nav id="mainNav">
+      <a href="#home">الرئيسية</a><a href="#services">الخدمات</a><a href="#admission">التسجيل</a><a href="#support">الدعم</a>
+    </nav>
+    <button class="outline-btn" data-open-login>تسجيل الدخول</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">من المدرسة إلى البيت، كل شيء واضح</span>
+        <h1>تعليم أقرب، متابعة أسهل، ونتائج أفضل.</h1>
+        <p>منصة واحدة تجمع التسجيل والأداء والنقط والغياب والدروس والفروض، وتخلي الأسرة والمدرسة على تواصل دائم.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#admission">سجّل ابنك الآن <span>←</span></a>
+          <button class="soft-btn" data-open-login>الدخول إلى الفضاء</button>
+        </div>
+        <div class="trust-row"><span>✓ تسجيل آمن</span><span>✓ أداء مرن</span><span>✓ متابعة يومية</span></div>
+      </div>
+      <div class="hero-visual">
+        <img class="school-photo" src="school-campus.webp" alt="تلاميذ يدخلون إلى مدرسة حديثة" />
+      <div class="guide-panel" aria-label="طريقة استعمال منصة مدرستي">
+        <div class="guide-head"><span>كيفاش كتستعمل المنصة؟</span><strong>3 خطوات بسيطة</strong></div>
+        <div class="guide-steps">
+          <div><b>1</b><p><strong>عمّر طلب التسجيل</strong><small>دخل معلومات التلميذ واختار الابتدائي أو الإعدادي.</small></p></div>
+          <div><b>2</b><p><strong>تابع جواب الإدارة</strong><small>توصل بحالة الطلب والوثائق المطلوبة.</small></p></div>
+          <div><b>3</b><p><strong>دخل للفضاء الخاص</strong><small>تابع النقط والغياب والدروس والأداءات.</small></p></div>
+        </div>
+        <a href="#admission" class="guide-link">ابدأ التسجيل الآن <span>←</span></a>
+      </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading"><span>خدمات المنصة</span><h2>كل ما تحتاجه الأسرة والمدرسة</h2><p>معلومات واضحة وإجراءات بسيطة بدون تنقلات غير ضرورية.</p></div>
+      <div class="features">
+        <article><span class="feature-icon">📝</span><h3>التسجيل الإلكتروني</h3><p>إرسال الطلب والوثائق وتتبع قرار الإدارة من الهاتف.</p><a href="#admission">ابدأ التسجيل ←</a></article>
+        <article><span class="feature-icon">💳</span><h3>الأداء والفواتير</h3><p>تسجيل الأداءات نقداً أو عبر التحويل أو داخل المدرسة. الأداء بالبطاقة غير مفعّل في هذه النسخة.</p><a href="#payments">طرق الأداء ←</a></article>
+        <article><span class="feature-icon">📊</span><h3>التتبع الدراسي</h3><p>النقط والغياب والملاحظات والواجبات في فضاء ولي الأمر.</p><button data-demo-role="parent">شاهد الفضاء ←</button></article>
+        <article><span class="feature-icon">📚</span><h3>الدروس والفروض</h3><p>محتوى منظم حسب المادة والقسم وتواريخ تسليم واضحة.</p><button data-demo-role="student">فضاء التلميذ ←</button></article>
+      </div>
+    </section>
+
+    <section class="school-life" aria-labelledby="lifeTitle">
+      <div class="life-head">
+        <div><span class="eyebrow">بيئة مدرسية متكاملة</span><h2 id="lifeTitle">التعلّم ماشي غير داخل القسم</h2></div>
+        <p>تعليم مناسب لتلاميذ الابتدائي والإعدادي، كيجمع بين الفهم، القراءة، الإبداع والعمل الجماعي.</p>
+      </div>
+      <div class="life-gallery">
+        <article class="life-main"><img src="primary-classroom.webp" alt="تلاميذ الابتدائي يتعلمون مع أستاذتهم داخل القسم"><div class="level-badge">الابتدائي</div><div class="life-caption"><span>01</span><div><small>التعلّم بثقة وفرح</small><h3>أساس قوي من السنوات الأولى</h3></div></div></article>
+        <article class="life-side"><img src="school-library.webp" alt="تلاميذ الإعدادي يدرسون داخل مكتبة المدرسة"><div class="level-badge">الإعدادي</div><div class="life-caption"><span>02</span><div><small>القراءة والاستقلالية</small><h3>مرافقة فعّالة خلال الإعدادي</h3></div></div></article>
+      </div>
+      <div class="life-stats"><div><strong>1–6</strong><span>مستويات الابتدائي</span></div><div><strong>1–3</strong><span>مستويات الإعدادي</span></div><div><strong>4</strong><span>فضاءات للدعم</span></div><div><strong>96%</strong><span>نسبة الحضور</span></div></div>
+    </section>
+
+    <section class="support-section" id="support">
+      <div class="support-copy"><span class="eyebrow">لا نترك أي تلميذ خلف الركب</span><h2>دعم موجّه حسب حاجة كل تلميذ</h2><p>كتساعد المنصة الأستاذ يلاحظ الصعوبات بكري، ينظم حصص الدعم، ويتابع التطور بعد كل حصة.</p><ul><li>اقتراح التلاميذ المحتاجين للدعم حسب النتائج والغياب</li><li>برنامج دعم واضح للأستاذ والأسرة</li><li>تقييم التطور وملاحظات عملية</li></ul></div>
+      <div class="support-card">
+        <img class="support-photo" src="support-classroom.webp" alt="أستاذة تساعد التلاميذ في حصة دعم" />
+        <div class="support-top"><div><small>برنامج الدعم</small><h3>الأسبوع الحالي</h3></div><span>3 حصص</span></div>
+        <div class="lesson"><b>ر</b><div><strong>الرياضيات</strong><small>الكسور والأعداد العشرية</small></div><time>الأربعاء<br><strong>16:00</strong></time></div>
+        <div class="lesson"><b>ف</b><div><strong>اللغة الفرنسية</strong><small>Compréhension écrite</small></div><time>الخميس<br><strong>17:00</strong></time></div>
+        <div class="lesson"><b>ع</b><div><strong>اللغة العربية</strong><small>التعبير والإنشاء</small></div><time>السبت<br><strong>10:00</strong></time></div>
+      </div>
+    </section>
+
+    <section class="admission" id="admission">
+      <div class="form-side">
+        <span class="eyebrow">طلب تسجيل أولي</span><h2>ابدأ مسار ابنك معنا</h2><p>عمّر المعلومات الأساسية، وغادي تتواصل معك الإدارة لاستكمال الملف.</p>
+        <form id="admissionForm">
+          <div class="field-row"><label>الاسم الكامل للتلميذ<input name="student" required placeholder="مثال: آدم العلوي"></label><label>المستوى المطلوب<select name="level" required><option value="">اختر المستوى</option><option>التعليم الابتدائي</option><option>التعليم الإعدادي</option></select></label></div>
+          <div class="field-row"><label>اسم ولي الأمر<input name="parent" required placeholder="الاسم الكامل"></label><label>رقم الهاتف<input name="phone" required inputmode="tel" placeholder="06 00 00 00 00"></label></div>
+          <label>البريد الإلكتروني<input name="email" type="email" required placeholder="name@example.com"></label>
+          <label class="consent"><input type="checkbox" required> أوافق على استعمال هذه المعلومات لمعالجة طلب التسجيل.</label>
+          <button class="primary-btn full" type="submit">إرسال طلب التسجيل</button>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </div>
+      <aside class="steps"><h3>شنو غادي يوقع من بعد؟</h3><ol><li><span>1</span><div><strong>مراجعة الطلب</strong><small>الإدارة كتراجع المعلومات وتتاصل بك.</small></div></li><li><span>2</span><div><strong>استكمال الوثائق</strong><small>كتضيف الوثائق المطلوبة بطريقة آمنة.</small></div></li><li><span>3</span><div><strong>تأكيد المقعد</strong><small>كتختار طريقة الأداء وكتوصل بالتأكيد.</small></div></li></ol><div class="help-box"><strong>تحتاج المساعدة؟</strong><small>تواصل مع مصلحة التسجيل<br>الإثنين–السبت، 09:00–17:00</small></div></aside>
+    </section>
+
+    <section class="payments section" id="payments"><div class="section-heading"><span>أداء بسيط وواضح</span><h2>اختار الطريقة اللي تناسبك</h2></div><div class="payment-grid"><div>💳<strong>بطاقة بنكية</strong><small>غير مفعّل في النسخة الحالية</small></div><div>🏦<strong>تحويل بنكي</strong><small>ارفع وصل التحويل</small></div><div>🏫<strong>داخل المدرسة</strong><small>نقداً أو عبر جهاز الأداء</small></div><div>📅<strong>أداء شهري</strong><small>تتبع الدفعات والمتبقي</small></div></div></section>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">م</span><span><strong>مدرستي</strong><small>تعليم قريب، متابعة واضحة</small></span></div><p>© 2026 مدرستي. مشروع تجريبي تعليمي لمنصة مدرسية رقمية.</p><div><a href="#home">الرئيسية</a><a href="#admission">التسجيل</a><button data-open-login>الدخول</button></div></footer>
+
+  <dialog id="loginModal">
+    <button class="close" id="closeLogin" aria-label="إغلاق">×</button>
+    <div class="modal-brand"><span class="brand-mark">م</span><h2>الدخول إلى فضائك</h2><p>اختر نوع الحساب لمشاهدة النموذج التجريبي.</p></div>
+    <form class="login-form" id="realLoginForm">
+      <label>البريد الإلكتروني<input type="email" name="email" required placeholder="name@school.ma"></label>
+      <label>كلمة المرور<input type="password" name="password" required placeholder="••••••••"></label>
+      <button class="primary-btn full" type="submit">تسجيل الدخول</button>
+      <p class="login-message" id="loginMessage" role="status"></p>
+    </form>
+    <div class="demo-separator"><span>أو جرّب الواجهات النموذجية</span></div>
+    <div class="role-grid"><button data-demo-role="parent">👨‍👩‍👦<strong>ولي الأمر</strong></button><button data-demo-role="student">🎓<strong>التلميذ</strong></button><button data-demo-role="teacher">👩‍🏫<strong>الأستاذ</strong></button><button data-demo-role="admin">⚙️<strong>الإدارة</strong></button></div>
+    <p class="demo-note">الولوج الحقيقي يستعمل API وقاعدة البيانات. أزرار الواجهات النموذجية تعرض بيانات تجريبية محفوظة محلياً، وليست حسابات حقيقية.</p>
+  </dialog>
+
+  <section class="dashboard-overlay" id="dashboard" hidden>
+    <aside class="dash-sidebar"><div class="brand"><span class="brand-mark">م</span><strong>مدرستي</strong></div><nav id="dashNav"></nav><button id="exitDashboard">← العودة للموقع</button></aside>
+    <div class="dash-main"><header><div><small id="roleLabel"></small><h2 id="dashGreeting"></h2></div><div class="dash-user"><span>🔔</span><b id="userInitial">م</b></div></header><div id="dashContent"></div></div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
