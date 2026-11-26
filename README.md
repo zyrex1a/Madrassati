@@ -2,7 +2,7 @@
 
 **Madrassati** est un projet pédagogique full-stack qui présente le concept d'une plateforme de gestion scolaire pour une école privée (primaire et collège). Il contient une interface web, une API REST avec Node.js/Express et un schéma de base de données MySQL.
 
-> **État réel du projet : prototype / projet de portfolio.** La page publique et plusieurs espaces de démonstration utilisent des données fictives enregistrées dans `localStorage`. L'API et le schéma SQL couvrent plusieurs opérations métier, mais les tableaux de bord ne sont pas encore tous connectés à l'API. Le paiement par carte n'est pas activé. Ne pas présenter cette version comme un logiciel scolaire prêt pour une école réelle.
+> **État réel du projet : prototype / projet de portfolio.** La page publique et plusieurs espaces de démonstration utilisent des données fictives enregistrées dans `localStorage`. L'API et le schéma SQL couvrent plusieurs opérations métier, mais les tableaux de bord ne sont pas encore tous connectés à l'API. Le paiement par carte n'est pas activé. 
 
 ## Technologies
 
